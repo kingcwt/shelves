@@ -2,7 +2,7 @@
   "name": "name",
   "version": "0.0.1",
   "revision": "0",
-  "description": "小云系统官网",
+  "description": "description",
   "main": "index.js",
   "scripts": {
     "start": "nodemon lib/server.js",
