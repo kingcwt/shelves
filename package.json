@@ -1,0 +1,32 @@
+{
+  "name": "name",
+  "version": "0.0.1",
+  "revision": "0",
+  "description": "小云系统官网",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon lib/server.js",
+    "watch": "coffee -o lib/ -cw src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://kingcwt.github.io"
+  },
+  "author": "",
+  "devDependencies": {
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.0.3",
+    "nodemon": "^1.18.10"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "debug": "^3.1.0",
+    "exceljs": "^0.9.1",
+    "express": "^4.16.3",
+    "jstransformer-coffee-script": "^1.1.1",
+    "less-watch-compiler": "^1.13.0",
+    "lodash": "^4.17.10",
+    "pug": "2.0.3"
+  }
+}
