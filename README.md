@@ -6,7 +6,7 @@ yarn watch
 
 yarn start
 
-> 用 启动服务运行lib下的server.js
+> 启动服务运行lib下的server.js
 
 端口6638
 
